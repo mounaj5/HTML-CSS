@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<style>
+  body
+  {
+    background: url("http://eskipaper.com/images/amazing-pink-sunset-1.jpg");
+    background-size:100% 50%;
+    background-repeat:round;
+    color:white;
+    font-style:arial;
+    margin:0;
+    padding:0;
+    
+  }
+  
+  *{ margin-top:0;}
+  
+  nav ul {
+  text-align: right;
+  position: fixed;
+  width: 98%;
+    padding-right:80px;
+    background-color:black;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 15px;
+  margin-right:30px;
+  padding:10px;
+  border: 2px solid gray;
+ 
+}
+
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+  font-size:20px;
+}
+
+nav ul li a:hover {
+  color: green;
+}
+  #welcome-section {
+  min-height: 55vh;
+  padding-top: 45vh;
+    text-align:center;
+  }
+  .container{
+    padding:30px 60px 30px 150px;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    min-height: 55vh;
+    text-align:center;
+    
+  }
+  .container img {
+  margin: 30px;
+  width: 180px;
+  height: 150px;
+   border-radius: 5px;
+  
+}
+  .container a{
+    border: 1px solid black;
+    text-align:center;
+    margin:20px;
+     color: gray;
+    padding-bottom:10px;
+    text-decoration:none;
+  }
+  .container img:hover {
+  transform:scale(1.2);
+}
+  
+  #contact {
+   
+    min-height: 55vh;
+  padding: 45vh;
+    text-align:center;
+    
+    }
+  
+  #contact img{
+     display:flex;
+   
+    flex-direction:row;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+    padding:20px;
+    
+    
+  }
+
+#contact img:hover {
+  transform:scale(1.5);
+}
+  @media only screen and (max-width: 350px) {
+    body{  background-color:black;}
+  }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+  <ul id='navbar'>
+    <li><a href="#welcome-section">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+    <div id="welcome-section">
+      <h1> Hello, <br> I design and develop websites </h1>
+    </div>
+    
+    <div id="projects">
+      <h2 align=center> These are some of my projects </h2>
+      <div class="container project-tile">
+      <a href="https://codepen.io/mounaj5/pen/qKQMdz" class="project-title"> <img src="https://codepen.io/freeCodeCamp/pen/NNvBQW/image/large.png " alt=" "> <br> Tribute Page
+        </a>
+        <a href="https://codepen.io/mounaj5/pen/bKQJGq" class="project-title"> <img src="https://codepen.io/FCC_test_suites/pen/KNEQNz/image/large.png " alt=" "> <br> Survey Form
+        </a>
+        <a href="https://codepen.io/mounaj5/pen/PaLddP" class="project-title"> <img src=" https://codepen.io/freeCodeCamp/pen/RKRbwL/image/large.png" alt=" "> <br> Product Landing Page
+        </a>
+        <a href="https://codepen.io/mounaj5/pen/ZRPZKy" class="project-title"> <img src="https://codepen.io/freeCodeCamp/pen/NdrKKL/image/large.png " alt=" "> <br> Technical Documentation Page
+        </a>
+        </div>
+    </div>
+    
+    <div id="contact">
+      <h1> CONTACT ME </h1><br><br><br>
+      <a href="https://www.facebook.com/" class="contact-link"> <img src="http://yhteyssivu.com/wordpress/wp-content/uploads/2018/01/facebook.png " alt=" "> <br>
+        </a>
+      <a href="https://www.linkedin.com/" class="contact-link"> <img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png " alt=" "> <br>
+        </a>
+      <a href="https://codepen.io/" id="profile-link" target="_blank" class="contact-link"> <img src="https://static.codepen.io/assets/social/facebook-default-05cf522ae1d4c215ae0f09d866d97413a2204b6c9339c6e7a1b96ab1d4a7340f.png " alt=" "> <br>
+        </a>
+    </div>
+    
+  </body>
+</html>
